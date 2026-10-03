@@ -6,7 +6,173 @@ log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - xiaohe
   type: vless
-  server: br.monkora.org
+  server: 172.67.77.98
+  port: 2053
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shanxp.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shanxp.dpdns.org
+- name: 🇧🇷 BR 02 - xiaohe
+  type: vless
+  server: 172.67.152.162
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
+- name: 🇧🇷 BR 03 - xiaohe
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🇧🇷 BR 04 - xiaohe
+  type: vless
+  server: 172.67.67.180
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shanxp.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shanxp.dpdns.org
+- name: 🇧🇷 BR 05 - xiaohe
+  type: vless
+  server: 172.67.65.56
+  port: 2053
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇧🇷 BR 06 - xiaohe
+  type: vless
+  server: 172.66.140.62
+  port: 8880
+  uuid: 160ca353-676d-4b7f-a041-0289e388b865
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proud-cloud-7bdd.208-a52.workers.dev
+- name: 🇧🇷 BR 07 - xiaohe
+  type: vless
+  server: 172.67.142.169
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🇧🇷 BR 08 - xiaohe
+  type: vless
+  server: 172.67.65.53
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shanxp.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shanxp.dpdns.org
+- name: 🇧🇷 BR 09 - xiaohe
+  type: vless
+  server: 104.25.3.165
+  port: 443
+  uuid: 737678dc-cc15-4643-85a4-ca9359df1aa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: patient-moon-c61f.ggfsa55.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: patient-moon-c61f.ggfsa55.workers.dev
+- name: 🇧🇷 BR 10 - xiaohe
+  type: vless
+  server: 172.67.75.194
+  port: 2096
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇧🇷 BR 11 - xiaohe
+  type: vless
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: calm-silence-d4a1.217.workers.dev
+- name: 🇧🇷 BR 12 - xiaohe
+  type: vless
+  server: 104.26.13.142
+  port: 2083
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shanxp.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shanxp.dpdns.org
+- name: 🇧🇷 BR 13 - xiaohe
+  type: vless
+  server: 147.45.116.19
   port: 443
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
   udp: true
@@ -16,17 +182,73 @@ proxies:
     public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
   servername: br.monkora.org
   client-fingerprint: firefox
+- name: 🇧🇷 BR 14 - xiaohe
+  type: vless
+  server: 104.26.12.227
+  port: 2096
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shanxp.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shanxp.dpdns.org
+- name: 🇧🇷 BR 15 - xiaohe
+  type: vless
+  server: 172.67.65.53
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shanxp.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: shanxp.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇷 BR 01 - xiaohe
+  - 🇧🇷 BR 02 - xiaohe
+  - 🇧🇷 BR 03 - xiaohe
+  - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
+  - 🇧🇷 BR 06 - xiaohe
+  - 🇧🇷 BR 07 - xiaohe
+  - 🇧🇷 BR 08 - xiaohe
+  - 🇧🇷 BR 09 - xiaohe
+  - 🇧🇷 BR 10 - xiaohe
+  - 🇧🇷 BR 11 - xiaohe
+  - 🇧🇷 BR 12 - xiaohe
+  - 🇧🇷 BR 13 - xiaohe
+  - 🇧🇷 BR 14 - xiaohe
+  - 🇧🇷 BR 15 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇧🇷 BR 01 - xiaohe
+  - 🇧🇷 BR 02 - xiaohe
+  - 🇧🇷 BR 03 - xiaohe
+  - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
+  - 🇧🇷 BR 06 - xiaohe
+  - 🇧🇷 BR 07 - xiaohe
+  - 🇧🇷 BR 08 - xiaohe
+  - 🇧🇷 BR 09 - xiaohe
+  - 🇧🇷 BR 10 - xiaohe
+  - 🇧🇷 BR 11 - xiaohe
+  - 🇧🇷 BR 12 - xiaohe
+  - 🇧🇷 BR 13 - xiaohe
+  - 🇧🇷 BR 14 - xiaohe
+  - 🇧🇷 BR 15 - xiaohe
 rules:
 - MATCH,PROXIES
